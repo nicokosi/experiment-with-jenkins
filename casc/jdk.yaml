@@ -1,0 +1,9 @@
+tool:
+  jdk:
+    installations:                                             
+      - name: "open-jdk11"
+        properties:
+          - installSource:
+              installers:
+                - adoptOpenJdkInstaller:
+                    id: "jdk-11.0.9+11.1"                    
