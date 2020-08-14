@@ -1,6 +1,7 @@
 FROM jenkins/jenkins:lts
 
-COPY executors.groovy /usr/share/jenkins/ref/init.groovy.d/executors.groovy
+COPY casc /var/lib/jenkins/casc
+ENV CASC_JENKINS_CONFIG /var/lib/jenkins/casc
 
 COPY plugins.txt /usr/share/jenkins/plugins.txt
 RUN /usr/local/bin/plugins.sh /usr/share/jenkins/plugins.txt

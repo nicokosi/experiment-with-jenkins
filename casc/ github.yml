@@ -1,0 +1,7 @@
+unclassified:
+  githubpluginconfig:
+    configs:
+      - name: "nicokosi"
+        apiUrl: "https://api.github.com"
+        credentialsId: "github-nicokosi-token"
+        manageHooks: true
