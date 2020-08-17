@@ -39,7 +39,4 @@ docker container run \
   --volume jenkins-docker-certs:/certs/client \
   nicokosi/jenkins
 
-# 3. Then lock Jenkins: https://www.jenkins.io/doc/book/installing/#setup-wizard
-
-# Configure plugins "as code" using configuration-as-code-plugin aka JCasC?
-# https://github.com/jenkinsci/configuration-as-code-plugin/tree/master/demos
+# 3. Then unlock Jenkins: https://www.jenkins.io/doc/book/installing/#setup-wizard
